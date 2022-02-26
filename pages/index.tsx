@@ -36,7 +36,7 @@ const Home: NextPage = () => {
   const getConnectedAccount = async () => {
     console.log("getConnectedAccount");
     if (window.ethereum) {
-      setEthereum(window.ethereum); //porived by metamask
+      setEthereum(window.ethereum); //provided by metamask
     }
 
     if (ethereum) {
