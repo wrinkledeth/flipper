@@ -132,12 +132,12 @@ const Home: NextPage = () => {
     return (
         <div className="container">
             <PrimaryButton onClick={connectAccount}>Connect MetaMask Wallet</PrimaryButton>
-            <style jsx>{`
+            {/* <style jsx>{`
             .container {
               Margin-left: 50%;
               Margin-top: 50%
             }
-          `}</style>
+          `}</style> */}
         </div>
     )
   }
