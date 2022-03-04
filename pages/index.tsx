@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import PrimaryButton from "../components/primary-button";
 import abi from "../utils/Flipper.json"
 import { ethers } from "ethers";
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
     getBit();
   }, [connectedAccount])
 
-  const flipBit = async (e) => {
+  const flipBit = async (e:React.FormEvent) => {
     e.preventDefault();
 
     if (!ethereum) {
@@ -102,7 +102,6 @@ const Home: NextPage = () => {
         duration: 5000,
       }
     );
-
     
     await flipTx.wait();
     console.log('Bit Flipped!', flipTx.hash);
