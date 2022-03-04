@@ -125,7 +125,7 @@ const Home: NextPage = () => {
 
   // RETURNS
   if (!ethereum) {
-    return <p>Please install MetaMask to connect to this site</p>
+    return <p>Please install MetaMask to connect to this site!</p>
   }
 
   if (!connectedAccount) {
