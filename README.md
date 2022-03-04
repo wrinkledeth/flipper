@@ -2,7 +2,7 @@
 
 Simple Bit Flipping Smart Contract (Solidity, Hardhat, NextJS, EthersJS)
 
-This project demonstratec a full-stack Web3 web application including:
+This project demonstratec a full-stack Web3 application including:
 - Solidity Smart Contract
 - Hardhat test and deploy scripts
 - Next.js front end web app
