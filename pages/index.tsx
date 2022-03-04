@@ -73,7 +73,7 @@ const Home: NextPage = () => {
   }
   useEffect(() => {
     getBit();
-  }, [connectedAccount])
+  }, [connectedAccount])  
 
   const flipBit = async (e:React.FormEvent) => {
     e.preventDefault();
