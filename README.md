@@ -1,15 +1,18 @@
-# Basic Sample Hardhat Project
+# Basic Flipper Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Simple Bit Flipping Smart Contract (Solidity, Hardhat, NextJS, EthersJS)
 
-Try running some of the following tasks:
+This project demonstratec a full-stack Web3 web application including:
+- Solidity Smart Contract
+- Hardhat test and deploy scripts
+- Next.js front end web app
 
+Please use the ropsten test net to try out the sample app: https://flipper-zeta.vercel
+
+Enjoy!
+
+Usage:
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+yarn install
+yarn dev
 ```
