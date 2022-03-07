@@ -7,7 +7,7 @@ This project demonstratec a full-stack Web3 application including:
 - Hardhat test and deploy scripts
 - Next.js front end web app
 
-Please use the ropsten test net to try out the sample app: https://flipper-zeta.vercel
+Please use the ropsten test net to try out the sample app: https://flipper-zeta.vercel.app
 
 Enjoy!
 
